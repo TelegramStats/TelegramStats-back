@@ -11,9 +11,9 @@ app.listen(PORT, () => {
 	console.debug(`Server running on PORT: ${PORT}`.rainbow);
 });
 
-// app.get('/', (req, res) => {
-// 	res.send('root');
-// });
+app.get('/', (req, res) => {
+	res.send('root');
+});
 
 app.get('*', (req, res) => {
 	res.send('../404.html');
