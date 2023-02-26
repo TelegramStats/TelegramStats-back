@@ -1,0 +1,36 @@
+{
+	"name": "telegramstats",
+	"version": "1.0.1",
+	"description": "backend",
+	"keywords": [
+		"nodejs",
+		"express",
+		"heroku",
+		"cors"
+	],
+	"author": "fxhxyz <telegramstats@proton.me> (https://fxhxyz.vercel.app/)",
+	"homepage": "https://fxhxyz.vercel.app/",
+	"bugs": "https://github.com/telegramstats/telegramstats-back/issues",
+	"main": "index.js",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/telegramstats/telegramstats-back.git"
+	},
+	"scripts": {
+		"server": "node ./server/index.js",
+		"dev": "nodemon ./server/index.js"
+	},
+	"dependencies": {
+		"colors": "^1.4.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"modern-normalize": "^1.1.0",
+		"nodemon": "^2.0.20"
+	},
+	"engines": {
+		"node": "18.12.1",
+		"npm": "8.19.2"
+	}
+}
